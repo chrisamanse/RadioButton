@@ -9,34 +9,34 @@
 import UIKit
 
 @IBDesignable
-class RadioButton: UIButton {
+public class RadioButton: UIButton {
     // MARK: Circle properties
     private var circleLayer = CAShapeLayer()
     private var fillCircleLayer = CAShapeLayer()
     
-    @IBInspectable var circleColor: UIColor = UIColor.redColor() {
+    @IBInspectable public var circleColor: UIColor = UIColor.redColor() {
         didSet {
             circleLayer.strokeColor = circleColor.CGColor
         }
     }
-    @IBInspectable var fillCircleColor: UIColor = UIColor.greenColor() {
+    @IBInspectable public var fillCircleColor: UIColor = UIColor.greenColor() {
         didSet {
             loadFillCircleState()
         }
     }
     
-    @IBInspectable var circleLineWidth: CGFloat = 2.0 {
+    @IBInspectable public var circleLineWidth: CGFloat = 2.0 {
         didSet {
             layoutCircleLayers()
         }
     }
-    @IBInspectable var fillCircleGap: CGFloat = 2.0 {
+    @IBInspectable public var fillCircleGap: CGFloat = 2.0 {
         didSet {
             layoutCircleLayers()
         }
     }
     
-    var circleRadius: CGFloat {
+    public var circleRadius: CGFloat {
         let width = bounds.width
         let height = bounds.height
         
@@ -74,12 +74,12 @@ class RadioButton: UIButton {
     }
     
     // MARK: Initialization
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         customInitialization()
     }
     
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
         customInitialization()
     }
@@ -101,7 +101,7 @@ class RadioButton: UIButton {
     }
     
     // MARK: Layout
-    override func layoutSubviews() {
+    override public func layoutSubviews() {
         super.layoutSubviews()
         
         layoutCircleLayers()
@@ -116,14 +116,14 @@ class RadioButton: UIButton {
     }
     
     // MARK: Selection
-    override var selected: Bool {
+    override public var selected: Bool {
         didSet {
             loadFillCircleState()
         }
     }
     
     // MARK: Custom
-    func loadFillCircleState() {
+    private func loadFillCircleState() {
         if self.selected {
             fillCircleLayer.fillColor = fillCircleColor.CGColor
         } else {
@@ -132,7 +132,7 @@ class RadioButton: UIButton {
     }
     
     // MARK: Interface builder
-    override func prepareForInterfaceBuilder() {
+    override public func prepareForInterfaceBuilder() {
         customInitialization()
     }
 }

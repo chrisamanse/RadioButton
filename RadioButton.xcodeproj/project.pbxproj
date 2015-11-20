@@ -11,6 +11,15 @@
 		CFDB52651BFEAF3A00FA6966 /* RadioButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDB525A1BFEAF3A00FA6966 /* RadioButton.framework */; };
 		CFDB526A1BFEAF3B00FA6966 /* RadioButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB52691BFEAF3B00FA6966 /* RadioButtonTests.swift */; };
 		CFDB52751BFEAF6C00FA6966 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB52741BFEAF6C00FA6966 /* RadioButton.swift */; };
+		CFDB527D1BFEB01500FA6966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB527C1BFEB01500FA6966 /* AppDelegate.swift */; };
+		CFDB527F1BFEB01500FA6966 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB527E1BFEB01500FA6966 /* ViewController.swift */; };
+		CFDB52821BFEB01500FA6966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFDB52801BFEB01500FA6966 /* Main.storyboard */; };
+		CFDB52841BFEB01500FA6966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFDB52831BFEB01500FA6966 /* Assets.xcassets */; };
+		CFDB52871BFEB01500FA6966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFDB52851BFEB01500FA6966 /* LaunchScreen.storyboard */; };
+		CFDB52921BFEB01500FA6966 /* RadioButton_exampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB52911BFEB01500FA6966 /* RadioButton_exampleTests.swift */; };
+		CFDB529D1BFEB01500FA6966 /* RadioButton_exampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB529C1BFEB01500FA6966 /* RadioButton_exampleUITests.swift */; };
+		CFDB52A81BFEB11400FA6966 /* RadioButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDB525A1BFEAF3A00FA6966 /* RadioButton.framework */; };
+		CFDB52A91BFEB11400FA6966 /* RadioButton.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CFDB525A1BFEAF3A00FA6966 /* RadioButton.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,7 +30,42 @@
 			remoteGlobalIDString = CFDB52591BFEAF3A00FA6966;
 			remoteInfo = RadioButton;
 		};
+		CFDB528E1BFEB01500FA6966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDB52511BFEAF3A00FA6966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDB52791BFEB01500FA6966;
+			remoteInfo = "RadioButton-example";
+		};
+		CFDB52991BFEB01500FA6966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDB52511BFEAF3A00FA6966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDB52791BFEB01500FA6966;
+			remoteInfo = "RadioButton-example";
+		};
+		CFDB52AA1BFEB11400FA6966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFDB52511BFEAF3A00FA6966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFDB52591BFEAF3A00FA6966;
+			remoteInfo = RadioButton;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CFDB52AC1BFEB11400FA6966 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				CFDB52A91BFEB11400FA6966 /* RadioButton.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		CFDB525A1BFEAF3A00FA6966 /* RadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,6 +75,19 @@
 		CFDB52691BFEAF3B00FA6966 /* RadioButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonTests.swift; sourceTree = "<group>"; };
 		CFDB526B1BFEAF3B00FA6966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFDB52741BFEAF6C00FA6966 /* RadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
+		CFDB527A1BFEB01500FA6966 /* RadioButton-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RadioButton-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDB527C1BFEB01500FA6966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CFDB527E1BFEB01500FA6966 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CFDB52811BFEB01500FA6966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFDB52831BFEB01500FA6966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFDB52861BFEB01500FA6966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFDB52881BFEB01500FA6966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDB528D1BFEB01500FA6966 /* RadioButton-exampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RadioButton-exampleTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDB52911BFEB01500FA6966 /* RadioButton_exampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton_exampleTests.swift; sourceTree = "<group>"; };
+		CFDB52931BFEB01500FA6966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDB52981BFEB01500FA6966 /* RadioButton-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RadioButton-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFDB529C1BFEB01500FA6966 /* RadioButton_exampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButton_exampleUITests.swift; sourceTree = "<group>"; };
+		CFDB529E1BFEB01500FA6966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +106,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CFDB52771BFEB01500FA6966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDB52A81BFEB11400FA6966 /* RadioButton.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDB528A1BFEB01500FA6966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDB52951BFEB01500FA6966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -57,6 +136,9 @@
 			children = (
 				CFDB525C1BFEAF3A00FA6966 /* RadioButton */,
 				CFDB52681BFEAF3A00FA6966 /* RadioButtonTests */,
+				CFDB527B1BFEB01500FA6966 /* RadioButton-example */,
+				CFDB52901BFEB01500FA6966 /* RadioButton-exampleTests */,
+				CFDB529B1BFEB01500FA6966 /* RadioButton-exampleUITests */,
 				CFDB525B1BFEAF3A00FA6966 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -66,6 +148,9 @@
 			children = (
 				CFDB525A1BFEAF3A00FA6966 /* RadioButton.framework */,
 				CFDB52641BFEAF3A00FA6966 /* RadioButtonTests.xctest */,
+				CFDB527A1BFEB01500FA6966 /* RadioButton-example.app */,
+				CFDB528D1BFEB01500FA6966 /* RadioButton-exampleTests.xctest */,
+				CFDB52981BFEB01500FA6966 /* RadioButton-exampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,6 +172,37 @@
 				CFDB526B1BFEAF3B00FA6966 /* Info.plist */,
 			);
 			path = RadioButtonTests;
+			sourceTree = "<group>";
+		};
+		CFDB527B1BFEB01500FA6966 /* RadioButton-example */ = {
+			isa = PBXGroup;
+			children = (
+				CFDB527C1BFEB01500FA6966 /* AppDelegate.swift */,
+				CFDB527E1BFEB01500FA6966 /* ViewController.swift */,
+				CFDB52801BFEB01500FA6966 /* Main.storyboard */,
+				CFDB52831BFEB01500FA6966 /* Assets.xcassets */,
+				CFDB52851BFEB01500FA6966 /* LaunchScreen.storyboard */,
+				CFDB52881BFEB01500FA6966 /* Info.plist */,
+			);
+			path = "RadioButton-example";
+			sourceTree = "<group>";
+		};
+		CFDB52901BFEB01500FA6966 /* RadioButton-exampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFDB52911BFEB01500FA6966 /* RadioButton_exampleTests.swift */,
+				CFDB52931BFEB01500FA6966 /* Info.plist */,
+			);
+			path = "RadioButton-exampleTests";
+			sourceTree = "<group>";
+		};
+		CFDB529B1BFEB01500FA6966 /* RadioButton-exampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFDB529C1BFEB01500FA6966 /* RadioButton_exampleUITests.swift */,
+				CFDB529E1BFEB01500FA6966 /* Info.plist */,
+			);
+			path = "RadioButton-exampleUITests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +255,61 @@
 			productReference = CFDB52641BFEAF3A00FA6966 /* RadioButtonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		CFDB52791BFEB01500FA6966 /* RadioButton-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDB52A51BFEB01500FA6966 /* Build configuration list for PBXNativeTarget "RadioButton-example" */;
+			buildPhases = (
+				CFDB52761BFEB01500FA6966 /* Sources */,
+				CFDB52771BFEB01500FA6966 /* Frameworks */,
+				CFDB52781BFEB01500FA6966 /* Resources */,
+				CFDB52AC1BFEB11400FA6966 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDB52AB1BFEB11400FA6966 /* PBXTargetDependency */,
+			);
+			name = "RadioButton-example";
+			productName = "RadioButton-example";
+			productReference = CFDB527A1BFEB01500FA6966 /* RadioButton-example.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFDB528C1BFEB01500FA6966 /* RadioButton-exampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDB52A61BFEB01500FA6966 /* Build configuration list for PBXNativeTarget "RadioButton-exampleTests" */;
+			buildPhases = (
+				CFDB52891BFEB01500FA6966 /* Sources */,
+				CFDB528A1BFEB01500FA6966 /* Frameworks */,
+				CFDB528B1BFEB01500FA6966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDB528F1BFEB01500FA6966 /* PBXTargetDependency */,
+			);
+			name = "RadioButton-exampleTests";
+			productName = "RadioButton-exampleTests";
+			productReference = CFDB528D1BFEB01500FA6966 /* RadioButton-exampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFDB52971BFEB01500FA6966 /* RadioButton-exampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFDB52A71BFEB01500FA6966 /* Build configuration list for PBXNativeTarget "RadioButton-exampleUITests" */;
+			buildPhases = (
+				CFDB52941BFEB01500FA6966 /* Sources */,
+				CFDB52951BFEB01500FA6966 /* Frameworks */,
+				CFDB52961BFEB01500FA6966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFDB529A1BFEB01500FA6966 /* PBXTargetDependency */,
+			);
+			name = "RadioButton-exampleUITests";
+			productName = "RadioButton-exampleUITests";
+			productReference = CFDB52981BFEB01500FA6966 /* RadioButton-exampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -155,6 +326,17 @@
 					CFDB52631BFEAF3A00FA6966 = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
+					CFDB52791BFEB01500FA6966 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					CFDB528C1BFEB01500FA6966 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CFDB52791BFEB01500FA6966;
+					};
+					CFDB52971BFEB01500FA6966 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = CFDB52791BFEB01500FA6966;
+					};
 				};
 			};
 			buildConfigurationList = CFDB52541BFEAF3A00FA6966 /* Build configuration list for PBXProject "RadioButton" */;
@@ -163,6 +345,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CFDB52501BFEAF3A00FA6966;
 			productRefGroup = CFDB525B1BFEAF3A00FA6966 /* Products */;
@@ -171,6 +354,9 @@
 			targets = (
 				CFDB52591BFEAF3A00FA6966 /* RadioButton */,
 				CFDB52631BFEAF3A00FA6966 /* RadioButtonTests */,
+				CFDB52791BFEB01500FA6966 /* RadioButton-example */,
+				CFDB528C1BFEB01500FA6966 /* RadioButton-exampleTests */,
+				CFDB52971BFEB01500FA6966 /* RadioButton-exampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -184,6 +370,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		CFDB52621BFEAF3A00FA6966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDB52781BFEB01500FA6966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDB52871BFEB01500FA6966 /* LaunchScreen.storyboard in Resources */,
+				CFDB52841BFEB01500FA6966 /* Assets.xcassets in Resources */,
+				CFDB52821BFEB01500FA6966 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDB528B1BFEB01500FA6966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDB52961BFEB01500FA6966 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -209,6 +419,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		CFDB52761BFEB01500FA6966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDB527F1BFEB01500FA6966 /* ViewController.swift in Sources */,
+				CFDB527D1BFEB01500FA6966 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDB52891BFEB01500FA6966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDB52921BFEB01500FA6966 /* RadioButton_exampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFDB52941BFEB01500FA6966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFDB529D1BFEB01500FA6966 /* RadioButton_exampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -217,7 +452,41 @@
 			target = CFDB52591BFEAF3A00FA6966 /* RadioButton */;
 			targetProxy = CFDB52661BFEAF3A00FA6966 /* PBXContainerItemProxy */;
 		};
+		CFDB528F1BFEB01500FA6966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDB52791BFEB01500FA6966 /* RadioButton-example */;
+			targetProxy = CFDB528E1BFEB01500FA6966 /* PBXContainerItemProxy */;
+		};
+		CFDB529A1BFEB01500FA6966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDB52791BFEB01500FA6966 /* RadioButton-example */;
+			targetProxy = CFDB52991BFEB01500FA6966 /* PBXContainerItemProxy */;
+		};
+		CFDB52AB1BFEB11400FA6966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFDB52591BFEAF3A00FA6966 /* RadioButton */;
+			targetProxy = CFDB52AA1BFEB11400FA6966 /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFDB52801BFEB01500FA6966 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFDB52811BFEB01500FA6966 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFDB52851BFEB01500FA6966 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFDB52861BFEB01500FA6966 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		CFDB526C1BFEAF3B00FA6966 /* Debug */ = {
@@ -364,6 +633,78 @@
 			};
 			name = Release;
 		};
+		CFDB529F1BFEB01500FA6966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "RadioButton-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrisamanse.RadioButton-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFDB52A01BFEB01500FA6966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				INFOPLIST_FILE = "RadioButton-example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrisamanse.RadioButton-example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFDB52A11BFEB01500FA6966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RadioButton-exampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrisamanse.RadioButton-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioButton-example.app/RadioButton-example";
+			};
+			name = Debug;
+		};
+		CFDB52A21BFEB01500FA6966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "RadioButton-exampleTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrisamanse.RadioButton-exampleTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RadioButton-example.app/RadioButton-example";
+			};
+			name = Release;
+		};
+		CFDB52A31BFEB01500FA6966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RadioButton-exampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrisamanse.RadioButton-exampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RadioButton-example";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CFDB52A41BFEB01500FA6966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "RadioButton-exampleUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chrisamanse.RadioButton-exampleUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "RadioButton-example";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -383,12 +724,38 @@
 				CFDB52701BFEAF3B00FA6966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFDB52711BFEAF3B00FA6966 /* Build configuration list for PBXNativeTarget "RadioButtonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CFDB52721BFEAF3B00FA6966 /* Debug */,
 				CFDB52731BFEAF3B00FA6966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFDB52A51BFEB01500FA6966 /* Build configuration list for PBXNativeTarget "RadioButton-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDB529F1BFEB01500FA6966 /* Debug */,
+				CFDB52A01BFEB01500FA6966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFDB52A61BFEB01500FA6966 /* Build configuration list for PBXNativeTarget "RadioButton-exampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDB52A11BFEB01500FA6966 /* Debug */,
+				CFDB52A21BFEB01500FA6966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFDB52A71BFEB01500FA6966 /* Build configuration list for PBXNativeTarget "RadioButton-exampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFDB52A31BFEB01500FA6966 /* Debug */,
+				CFDB52A41BFEB01500FA6966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
