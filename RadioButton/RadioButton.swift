@@ -11,8 +11,8 @@ import UIKit
 @IBDesignable
 public class RadioButton: UIButton {
     // MARK: Circle properties
-    private var circleLayer = CAShapeLayer()
-    private var fillCircleLayer = CAShapeLayer()
+    internal var circleLayer = CAShapeLayer()
+    internal var fillCircleLayer = CAShapeLayer()
     
     @IBInspectable public var circleColor: UIColor = UIColor.redColor() {
         didSet {
@@ -36,7 +36,7 @@ public class RadioButton: UIButton {
         }
     }
     
-    public var circleRadius: CGFloat {
+    internal var circleRadius: CGFloat {
         let width = bounds.width
         let height = bounds.height
         
