@@ -2,6 +2,8 @@
 
 A radio button UI component for iOS built in Swift.
 
+![RadioButton image](./Images/RadioButton.png)
+
 **`RadioButton`**
   - A subclass of UIButton. The radio button circle is simply drawn on top of the button. The size of the circle will fit the frame of the button while maintaining its aspect ratio.
 
