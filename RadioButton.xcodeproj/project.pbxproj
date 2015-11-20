@@ -10,6 +10,7 @@
 		CFDB525E1BFEAF3A00FA6966 /* RadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = CFDB525D1BFEAF3A00FA6966 /* RadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CFDB52651BFEAF3A00FA6966 /* RadioButton.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFDB525A1BFEAF3A00FA6966 /* RadioButton.framework */; };
 		CFDB526A1BFEAF3B00FA6966 /* RadioButtonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB52691BFEAF3B00FA6966 /* RadioButtonTests.swift */; };
+		CFDB52751BFEAF6C00FA6966 /* RadioButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFDB52741BFEAF6C00FA6966 /* RadioButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		CFDB52641BFEAF3A00FA6966 /* RadioButtonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RadioButtonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFDB52691BFEAF3B00FA6966 /* RadioButtonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadioButtonTests.swift; sourceTree = "<group>"; };
 		CFDB526B1BFEAF3B00FA6966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFDB52741BFEAF6C00FA6966 /* RadioButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				CFDB525D1BFEAF3A00FA6966 /* RadioButton.h */,
+				CFDB52741BFEAF6C00FA6966 /* RadioButton.swift */,
 				CFDB525F1BFEAF3A00FA6966 /* Info.plist */,
 			);
 			path = RadioButton;
@@ -194,6 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFDB52751BFEAF6C00FA6966 /* RadioButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +312,7 @@
 		CFDB526F1BFEAF3B00FA6966 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -318,12 +323,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.chrisamanse.RadioButton;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		CFDB52701BFEAF3B00FA6966 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
