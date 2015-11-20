@@ -28,9 +28,17 @@ class RadioButton_exampleUITests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // Use recording to get started writing UI tests.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testRadioButtonSelection() {
+        XCUIDevice.sharedDevice().orientation = .FaceUp
+        
+        let button = XCUIApplication().childrenMatchingType(.Window).elementBoundByIndex(0).childrenMatchingType(.Other).element.childrenMatchingType(.Button).element
+        
+        let selected = button.selected
+        
+        button.tap()
+        XCTAssert(button.selected == !selected)
+        
+        button.tap()
+        XCTAssert(button.selected == selected)
     }
-    
 }
