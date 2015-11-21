@@ -1,4 +1,6 @@
 # RadioButton
+[![Build Status](https://travis-ci.org/chrisamanse/RadioButton.svg)](https://travis-ci.org/chrisamanse/RadioButton) 
+[![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)](https://github.com/Carthage/Carthage)
 
 A radio button UI component for iOS built in Swift.
 
