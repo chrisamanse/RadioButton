@@ -639,6 +639,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "RadioButton-example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chrisamanse.RadioButton-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -651,6 +652,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = "RadioButton-example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.chrisamanse.RadioButton-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -742,6 +744,7 @@
 				CFDB52A01BFEB01500FA6966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFDB52A61BFEB01500FA6966 /* Build configuration list for PBXNativeTarget "RadioButton-exampleTests" */ = {
 			isa = XCConfigurationList;
@@ -750,6 +753,7 @@
 				CFDB52A21BFEB01500FA6966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CFDB52A71BFEB01500FA6966 /* Build configuration list for PBXNativeTarget "RadioButton-exampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -758,6 +762,7 @@
 				CFDB52A41BFEB01500FA6966 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
