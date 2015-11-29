@@ -109,9 +109,11 @@ public class RadioButton: UIButton {
     
     private func layoutCircleLayers() {
         circleLayer.frame = bounds
+        circleLayer.lineWidth = circleLineWidth
         circleLayer.path = circlePath.CGPath
         
         fillCircleLayer.frame = bounds
+        fillCircleLayer.lineWidth = circleLineWidth
         fillCircleLayer.path = fillCirclePath.CGPath
     }
     
